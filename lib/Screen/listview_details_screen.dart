@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class ListviewDetailsScreen extends StatefulWidget {
   const ListviewDetailsScreen({
     super.key,
@@ -42,7 +41,7 @@ class _ListviewDetailsScreenState extends State<ListviewDetailsScreen> {
                     border: Border.all(
                         color: index == currentIndex
                             ? Colors.transparent
-                            : Colors.grey)),
+                            : const Color.fromARGB(255, 167, 165, 165))),
                 child: Center(
                     child: Padding(
                   padding: const EdgeInsets.only(
